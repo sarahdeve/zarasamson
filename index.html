@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sarah</title>
+    <script src="https://kit.fontawesome.com/69d9cce7ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sarah</span><br>Samson from Nigeria.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------about -->
+    <div id="about">
+        <div class="container">
+           <div class="row">
+            <div id="about-col-1">
+                <img class="" src="images/sarah.jpg" alt="">
+            </div>
+            <div id="about-col-2">
+                <h1 class="sub-title">About ()</h1> <br>
+                <p>Hello World! A principal full stack web developer and a CCR team lead, with oustanding (PHP|Laravel|Angular|Vue.js|React.js|Node.js|Laravel) experience and excellent (MERN stack developer) skills. <br> Has over 3 years of working experience in the software development field, building projects for the web and IoT platforms, using programming tools like Mongo DB, React js, Node js, Express, HTML, CSS & JavaScript .</p>
+                    <br><br>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <br>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Web app develpment</li>
+                        <li><span>App Development</span><br>BUILDING ANdroid/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span>2023</span><br>Back-end development training at SQI college of ICT.</li>
+                        <li><span>2022</span><br>Hardware engineering and Customer care representative at ISON Xperiences</li>
+                        <li><span>2021</span><br>Frontend development training at SQI college of ICT.</li>
+                        <li><span>2020</span><br>Nigerian Drone Business Competition.</li>
+                        <li><span>2019 - Current</span><br>UI/UX Design Training at SQI college of ICT.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>professional Software Engineering</li>
+                        <li><span>2021</span><br>BSc. Computer Science</li>
+                    </ul>
+                </div>
+            </div>
+           </div> 
+        </div>
+    </div>
+
+    <!-- ---------services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <!-- <a href="https://github.com/sarahdeve"><i class="fab fa-github"></i></a> -->
+                    <i class="fas fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>The backbone supporting our cutting edge web-design. <br> To enhance business growth of our customers with creative design, development and to deliver market defining high quality wesites that create value and reliable competitive advantage to customers.</p>
+                    <a href="https://sarahsamson.netlify.app/">Learn more...</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-crop-simple"></i> -->
+                    <i class="fas fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Intuitive interface with focus on the experiences of end users.
+                         As a rare webapp developer, I understand both the visual, experiential, and functional aspects of creating for the web. My mission is to bring mre beauty, creativity and good ideas into the world through web design.</p>
+                    <a href="https://sarahsamson.netlify.app/">Learn more...</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-brands fa-app-store"></i> -->
+                    <i class="fab fa-app-store"></i>
+                    <h2>WebApp Design</h2>
+                    <p>View all the web application development related project and repositories.</p>
+                    <a href="https://github.com/sarahdeve/">Learn more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----------portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hospital Management Design</h3>
+                        <p>Tangible and self-affirming sense of 'wow! i really can visit the hospital'.</p>
+                        <a href="https://hospitalv1.netlify.app/"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/React2.jpg" alt="">
+                   <div class="layer">
+                    <h3>Resturant Web Design</h3>
+                        <p>Thriving eating community and top-ranking resturant</p>
+                        <a href="https://sarahdeve.github.io/food-ordering-system/"><i class="fas fa-arrow-up"></i></a>
+                   </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hotel Reservation Management System</h3>
+                        <p>Best amy inspires a grounded situation, every seconds. </p>
+                        <a href="https://zarar.netlify.app/"><i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://sarahsamson.netlify.app/" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------contactt -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> oluwasefemi@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 08107729038</p>
+                    <div class="social-icons">
+                        <!-- <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a> -->
+                        <a href="https://www.instagram.com/zarazefe/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sarah-samson-b799161a2/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/sarahdeve"><i class="fab fa-github"></i></a>
+                    </div>
+                   <div>
+                    <a href="images/my rec.pdf" download class="botton">Recommendation</a>
+                    <a href="images/my cv.pdf" download class="botton">Download CV</a>
+                   </div>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name..." required>
+                        <input type="email" name="Email" placeholder="Your Email..." required>
+                        <textarea name="Message" rows="6" placeholder="Your Message..." required></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sarah. Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-150px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzC175Lb1G7bmGmaeuA_rHWCh4klk2Ek3q4Qq0Geh5WgwLv1o_OvWzdLj9xlG8fjadR/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
