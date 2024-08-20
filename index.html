@@ -34,11 +34,11 @@
         <div class="container">
            <div class="row">
             <div id="about-col-1">
-                <img class="" src="images/sarah.jpg" alt="">
+                <img class="" src="images/005.jpg" alt="">
             </div>
             <div id="about-col-2">
                 <h1 class="sub-title">About ()</h1> <br>
-                <p>Hello World! A principal full stack web developer and a CCR team lead, with oustanding (PHP|Laravel|Angular|Vue.js|React.js|Node.js|Laravel) experience and excellent (MERN stack developer) skills. <br> Has over 3 years of working experience in the software development field, building projects for the web and IoT platforms, using programming tools like Mongo DB, React js, Node js, Express, HTML, CSS & JavaScript .</p>
+                <p>Hello World! A principal full stack web developer and a CCR team lead, with oustanding 'PHP|Angular|Vue.js|React.js|Node.js|Laravel' experience and excellent (MERN stack developer) skills. <br> Has over 3 years of working experience in the software development field, building projects for the web and IoT platforms, using programming tools like Mongo DB, React js, Node js, Express, HTML, CSS & JavaScript .</p>
                     <br><br>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -49,27 +49,29 @@
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
                         <li><span>UI/UX</span><br>Designing Web/App interface</li>
-                        <li><span>Web Development</span><br>Web app develpment</li>
-                        <li><span>App Development</span><br>BUILDING ANdroid/IOS apps</li>
+                        <li><span>Web Developer</span><br>Web app development</li>
+                        <li><span>Software Developer</span><br>Building Android/IOS website</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience" >
                     <ul>
+                        <li><span>2024</span><br>Project Manager, Web Developer and Digital Marketer at Farmer's Manual</li>
                         <li><span>2023</span><br>Back-end development training at SQI college of ICT.</li>
                         <li><span>2022</span><br>Hardware engineering and Customer care representative at ISON Xperiences</li>
                         <li><span>2021</span><br>Frontend development training at SQI college of ICT.</li>
                         <li><span>2020</span><br>Nigerian Drone Business Competition.</li>
-                        <li><span>2019 - Current</span><br>UI/UX Design Training at SQI college of ICT.</li>
+                        <li><span>2019</span><br>UI/UX Design Training at SQI college of ICT.</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
+                        <li><span>2024</span><br>NYSC Certified</li>
                         <li><span>2023</span><br>professional Software Engineering</li>
                         <li><span>2021</span><br>BSc. Computer Science</li>
                     </ul>
                 </div>
             </div>
-           </div> 
+           </div>
         </div>
     </div>
 
@@ -82,7 +84,7 @@
                     <!-- <i class="fa-solid fa-code"></i> -->
                     <!-- <a href="https://github.com/sarahdeve"><i class="fab fa-github"></i></a> -->
                     <i class="fas fa-code"></i>
-                    <h2>Web Developer</h2>
+                    <h2>Software Developer</h2>
                     <p>The backbone supporting our cutting edge web-design. <br> To enhance business growth of our customers with creative design, development and to deliver market defining high quality wesites that create value and reliable competitive advantage to customers.</p>
                     <a href="https://sarahsamson.netlify.app/">Learn more...</a>
                 </div>
@@ -97,18 +99,18 @@
                 <div>
                     <!-- <i class="fa-brands fa-app-store"></i> -->
                     <i class="fab fa-app-store"></i>
-                    <h2>WebApp Design</h2>
+                    <h2>Wordpress Website</h2>
                     <p>View all the web application development related project and repositories.</p>
                     <a href="https://github.com/sarahdeve/">Learn more...</a>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- ----------portfolio -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title">My Projects</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/work1.jpg" alt="">
@@ -146,6 +148,7 @@
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fas fa-paper-plane"></i> oluwasefemi@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 08145056692</p>
                     <p><i class="fas fa-phone-square-alt"></i> 08107729038</p>
                     <div class="social-icons">
                         <!-- <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a> -->
@@ -175,10 +178,10 @@
     </div>
 
     <script>
-        
+
         var tablinks = document.getElementsByClassName("tab-links")
         var tabcontents = document.getElementsByClassName("tab-contents");
-        
+
         function opentab(tabname) {
             for(tablink of tablinks) {
                 tablink.classList.remove("active-link");
@@ -204,7 +207,7 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzC175Lb1G7bmGmaeuA_rHWCh4klk2Ek3q4Qq0Geh5WgwLv1o_OvWzdLj9xlG8fjadR/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
